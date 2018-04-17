@@ -25,6 +25,8 @@ public class Razor_PaymentGateway extends Activity implements PaymentResultListe
 
     private static final String TAG = Razor_PaymentGateway.class.getSimpleName();
 
+    String new_paymnet;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
